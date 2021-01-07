@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --port 8080 --config ./webpack/webpack.config.js",
-    "build": "node server-app.js",
+    "start:front": "webpack serve --port 8080 --config ./webpack/webpack.config.js",
     "build:front": "webpack --config ./webpack/webpack.config.prod.js --mode=production",
+    "start": "node server-app.js",
     "lint": "eslint ./src/\"**/*.+(js|jsx)\"",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md|mdx|html)\"",
     "test": "jest"
+  },
+  "engines": {
+    "node": "v14.15.4"
   },
   "keywords": [],
   "author": "Victor Sandoval",
