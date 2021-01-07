@@ -18,7 +18,6 @@ npm run dev
 ```
 
 To get the app running on production, run:
-## Production
 ```bash
 npm install
 npm start:server
