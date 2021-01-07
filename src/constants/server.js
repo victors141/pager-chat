@@ -1,1 +1,1 @@
-export const URL_SERVER = 'http://localhost:3000/getmessages'
+export const URL_SERVER = 'https://pager-chat-victor.herokuapp.com/getmessages'
