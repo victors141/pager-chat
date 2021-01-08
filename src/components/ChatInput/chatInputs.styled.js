@@ -11,6 +11,7 @@ export const MessageBoxContainer = styled.div`
   input {
     padding-left: 20px;
     margin-bottom: 8px;
+    padding-right: 70px;
   }
 `
 

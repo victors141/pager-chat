@@ -33,6 +33,7 @@ export const Text = styled.p`
   margin-bottom: 0;
   margin: 0;
   line-height: 22px;
+  word-break: break-word;
 `
 
 export const Image = styled.img`

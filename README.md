@@ -26,11 +26,11 @@ npm run build
 
 ## Things to improve
 - Implement tests
+- Add emojis
 - Include husky to check eslint and test before commit.
 - Improve the server-app to save the messages using a database.
 - Giphy API key should be in the server to avoid storing in the frontend app.
 - Implement a carousel to have more gif options.
 - Panel to show the current users connected(the info is in the app but the design doesn't have this).
 - Use a logger to check possible bugs.
-- Improve
 - Offline support
