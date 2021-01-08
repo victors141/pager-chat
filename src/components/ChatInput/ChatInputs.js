@@ -43,14 +43,14 @@ export default function ChatInput() {
 
     if (formattedMessage.indexOf(GIPHY_QUERY) === 0) {
       const searchImg = formattedMessage.split(' ').slice(1).join(' ')
-      if (searchImg ) {
+      if (searchImg) {
         getGiphy(searchImg)
           .then(giphyData => {
-            const {image_url, title} = giphyData.data
+            const {image_url} = giphyData.data
 
             connect().emit(EVENTS_TO_EMIT.IMAGE_MESSAGE, {
               url: image_url,
-              alt: title,
+              alt: searchImg,
             })
           })
           .catch(console.error)

@@ -30,12 +30,15 @@ export default function Message({message,scrollBottom}) {
         {isTextMessage ? (
           <Text>{message.text}</Text>
         ) : (
+          <>
+          <Text>{message.alt}</Text>
           <Image
             className="message-image"
             src={message.url}
             alt={message.alt}
             onLoad={scrollBottom}
           />
+          </>
         )}
       </Content>
     </MessageContainer>
