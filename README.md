@@ -1,12 +1,14 @@
 # Pager Chat
-Chat using pager backend
+[Chat](https://zen-agnesi-18001d.netlify.app/) using pager backend
 
 ## Tools
-This app was built using the following tools:
+This [app](https://zen-agnesi-18001d.netlify.app/) was built using the following tools:
 
 [React](https://reactjs.org/)
 [webpack](https://webpack.js.org/)
 [Express](https://expressjs.com/)
+[Heroku](https://www.heroku.com/)
+[Netlify](https://www.netlify.com/)
 
 ## Running the app
 

@@ -11,7 +11,7 @@ export default function App() {
   const {user} = useAuthentication()
 
   return (
-    <Suspense fallback={<h1>Cargando</h1>}>
+    <Suspense fallback={<h1>Loading...</h1>}>
       {user ? <Chat /> : <Join />}
     </Suspense>
   )
